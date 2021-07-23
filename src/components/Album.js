@@ -26,17 +26,19 @@ export class Album extends Component {
         
       HandleSubmit = (event) => {
           event.preventDefault();
-          fetch(`https://jsonplaceholder.typicode.com/albums/${this.state.album}/photos`)
+          fetch(`https://backend-333.herokuapp.com/albums/${this.state.album}/photos`)
                 .then(response => {
                     if(response.ok){
                         return response.json();
                     }
                     throw response
                 })
-                .then(data  =>this.setState({
-                    albumdata: data,
-                    errorMessage: ''
-                }))
+                .then(data => {
+                    this.setState({
+                    albumdata:data.formatedPhotos,
+                    errorMessage: '',
+                    })
+                    })
                 .catch(error => this.setState({
                     albumdata: '',
                     errorMessage: error

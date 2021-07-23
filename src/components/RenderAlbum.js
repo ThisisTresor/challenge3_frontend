@@ -3,7 +3,7 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
-
+  import "../App.css";
 export class RenderAlbum extends Component {
     constructor(props) {
         super(props)
@@ -17,7 +17,7 @@ export class RenderAlbum extends Component {
             return (
              <div className="col-3 col-sm-2" key={index}>
                  <a><img src={album.thumbnailUrl}></img></a>
-                 <p>{album.title}</p>
+                 <p className="title" >{album.title}</p>
              </div>
             );
         });
