@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/challenge3_frontend/static/css/main.d823f7e8.chunk.css",
+    "main.js": "/challenge3_frontend/static/js/main.9f7fca02.chunk.js",
+    "main.js.map": "/challenge3_frontend/static/js/main.9f7fca02.chunk.js.map",
+    "runtime-main.js": "/challenge3_frontend/static/js/runtime-main.e321429d.js",
+    "runtime-main.js.map": "/challenge3_frontend/static/js/runtime-main.e321429d.js.map",
+    "static/css/2.d7be7940.chunk.css": "/challenge3_frontend/static/css/2.d7be7940.chunk.css",
+    "static/js/2.cbb9fc47.chunk.js": "/challenge3_frontend/static/js/2.cbb9fc47.chunk.js",
+    "static/js/2.cbb9fc47.chunk.js.map": "/challenge3_frontend/static/js/2.cbb9fc47.chunk.js.map",
+    "static/js/3.7b66ea26.chunk.js": "/challenge3_frontend/static/js/3.7b66ea26.chunk.js",
+    "static/js/3.7b66ea26.chunk.js.map": "/challenge3_frontend/static/js/3.7b66ea26.chunk.js.map",
+    "index.html": "/challenge3_frontend/index.html",
+    "static/css/2.d7be7940.chunk.css.map": "/challenge3_frontend/static/css/2.d7be7940.chunk.css.map",
+    "static/css/main.d823f7e8.chunk.css.map": "/challenge3_frontend/static/css/main.d823f7e8.chunk.css.map",
+    "static/js/2.cbb9fc47.chunk.js.LICENSE.txt": "/challenge3_frontend/static/js/2.cbb9fc47.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/challenge3_frontend/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e321429d.js",
+    "static/css/2.d7be7940.chunk.css",
+    "static/js/2.cbb9fc47.chunk.js",
+    "static/css/main.d823f7e8.chunk.css",
+    "static/js/main.9f7fca02.chunk.js"
+  ]
+}
